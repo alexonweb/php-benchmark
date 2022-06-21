@@ -5,16 +5,6 @@ namespace Alexonweb\ServerTest;
 class ServerTest
 {
 
-    // что можно настроить ? 
-    // колличество файлов 
-    // колличество рандомного контента и длину строк
-
-    // private $content = array(
-    //     "min_items" => 1,
-    //     "max_items" => 100
-    // );
-
-
     public function __construct()
     {
         
@@ -117,7 +107,6 @@ class ServerTest
 
     }
 
-    // 
     public function findinfiles($dir, $type, $string)
     {
 
@@ -128,6 +117,7 @@ class ServerTest
         $files = array_diff($files, array('.', '..'));
 
         $ifiles = 0;
+        
         $iitems = 0;
 
         foreach ($files as $file) {

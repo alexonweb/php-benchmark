@@ -14,16 +14,6 @@
 <body>
 
 <?php
-/** 
- * 
- * Тестовый скрипт для проверки производительности веб-сервера.
- * 
- * Тест на создание файлов YAML и JSON
- * Тест на поиск в файлах YAML и JSON
- * Тест на удаление файлов YAML и JSOn
- * 
- * 
- */
 ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
