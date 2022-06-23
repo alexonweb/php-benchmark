@@ -5,13 +5,6 @@ namespace Alexonweb\ServerTest;
 class ServerTest
 {
 
-    public function __construct()
-    {
-        
-    }
-
-
-
     private function generateRandomString($length = 10) {
 
         $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -30,8 +23,6 @@ class ServerTest
 
     }
 
-
-    // 
     private function randomArray()
     {
 
@@ -46,7 +37,6 @@ class ServerTest
         return $randarr;
 
     }
-
 
     // $type = 'json' or 'yaml'
     // $number - how many files generate
@@ -78,7 +68,6 @@ class ServerTest
         // echo '</strong>';
 
     }
-
 
     // Remove all files in dir
     public function removefiles($dir)
@@ -168,6 +157,5 @@ class ServerTest
         }
         
     }
-
 
 }
